@@ -3,7 +3,7 @@ server:
 
 spring:
   r2dbc:
-    url: r2dbc:pool:postgres://localhost:5423/webflux_security
+    url: r2dbc:pool:postgres://localhost:5432/webflux_security
     username: postgres
     password: postgres
   flyway:
